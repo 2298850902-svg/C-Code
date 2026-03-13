@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int mainpig()
+{
+	int A = 0;
+	int B = 0;
+	int C = 0;
+	cout << "please input A weight" << endl;
+	cin >> A; // A weight
+	cout << "please input B weight" << endl;
+	cin >> B;
+	cout << "please input C weight" << endl;
+	cin >> C;
+    // constructure
+	if (A > B)
+	{
+		if (A > C)
+		{
+			cout << "A is the most weight" << "A weight is" << A << endl;
+		}
+		else
+		{
+			cout << "C is the most weight" << "C weight is" << C << endl;
+		}
+	}
+	else
+	{
+		if (B > C)
+		{
+			cout << "B is the most weight" << "B weight is" << B << endl;
+		}
+		else
+		{
+			cout << "C is the most weight" << "C weight is" << C << endl;
+		}
+	}
+
+	system("pause");
+	return 0;
+
+}
